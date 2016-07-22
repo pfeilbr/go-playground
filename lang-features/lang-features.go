@@ -12,19 +12,19 @@ import (
 	"strings"
 )
 
-// define Person and it's data
+// Person defines Person and it's data
 type Person struct {
 	Name      string
 	Age       int
 	Nicknames []string
 }
 
-// add a Person method
+// Description
 func (p *Person) Description() string {
 	return fmt.Sprintf("Name: %s, Age: %d, Nicknames: %s", p.Name, p.Age, strings.Join(p.Nicknames, ","))
 }
 
-// add a setter.  note that p is a pointer and must be to change it's state
+// SetName. add a setter.  note that p is a pointer and must be to change it's state
 func (p *Person) SetName(name string) {
 	p.Name = name
 }
@@ -69,11 +69,15 @@ func main() {
 	var host = flag.String("host", ":8080", "host to bind to")
 	var useTLS = flag.Bool("tls", false, "enable TLS")
 	flag.Parse()
-	fmt.Printf("host = %s, useTLS = %s", *host, *useTLS)
+	fmt.Printf("host = %v, useTLS = %v", *host, *useTLS)
 
 	// execute external program
 	cmd := exec.Command("/bin/ls", "-l")
 	buf, err := cmd.Output()
+
+	if err != nil {
+		fmt.Printf("Error %v", err)
+	}
 	fmt.Printf("buf = %v", string(buf))
 
 	// JSON examples

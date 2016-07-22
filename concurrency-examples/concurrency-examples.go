@@ -27,6 +27,7 @@ L:
 			fmt.Println(msg)
 			counter++
 			if counter == len(fns) {
+				fmt.Printf("counter = %d", counter)
 				break L
 			}
 		}
