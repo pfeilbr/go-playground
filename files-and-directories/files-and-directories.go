@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"path/filepath"
+	"strings"
 )
 
 func directoryContents() {
@@ -16,6 +18,15 @@ func directoryContents() {
 	}
 }
 
+func glob() {
+	if matches, err := filepath.Glob("./**/*"); err != nil {
+		panic(err)
+	} else {
+		fmt.Printf("matches = \n%v\n", strings.Join(matches, "\n"))
+	}
+}
+
 func main() {
 	directoryContents()
+	glob()
 }
