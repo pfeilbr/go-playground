@@ -19,12 +19,12 @@ type Person struct {
 	Nicknames []string
 }
 
-// Description
+// Description description
 func (p *Person) Description() string {
 	return fmt.Sprintf("Name: %s, Age: %d, Nicknames: %s", p.Name, p.Age, strings.Join(p.Nicknames, ","))
 }
 
-// SetName. add a setter.  note that p is a pointer and must be to change it's state
+// SetName add a setter.  note that p is a pointer and must be to change it's state
 func (p *Person) SetName(name string) {
 	p.Name = name
 }
@@ -90,5 +90,26 @@ func main() {
 	wrd := []byte{'a', 'b', 'c'}
 	fmt.Println(wrd)
 	fmt.Println(string(wrd))
+
+	// ---
+	// type assertions. similar to casting. interface to more specialized type
+	var general interface{} // variable that can hold anything
+	general = "brian"       // assing a string
+
+	if name, ok := general.(string); ok { // cast
+		fmt.Printf("name = %v\n", name)
+	} else {
+		fmt.Println(`failed to cast var general to string`)
+	}
+
+	// assign a struct
+	general = &Person{"Trica", 42, []string{"Trish", "Dish"}}
+
+	if tricia, ok := general.(*Person); ok { // cast.  note pointer dereference with *
+		fmt.Printf("tricia = %v\n", tricia)
+	} else {
+		fmt.Println(`failed to cast var general to *Person`)
+	}
+	// ---
 
 }
