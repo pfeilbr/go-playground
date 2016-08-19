@@ -52,7 +52,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	lastId, err := res.LastInsertId()
+	lastID, err := res.LastInsertId()
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -61,7 +61,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Printf("ID = %d, affected = %d\n", lastId, rowCnt)
+	log.Printf("ID = %d, affected = %d\n", lastID, rowCnt)
 }
 
 var letters = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
