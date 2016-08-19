@@ -2,6 +2,8 @@
 
 A set of example [Go](http://golang.org/) programs
 
+Each subdirectory contains an example
+
 ## Running
 
 	go run filename
