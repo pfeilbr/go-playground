@@ -20,3 +20,11 @@ func TestAdd(t *testing.T) {
 		t.Errorf("Add(1, 2) != 2, result = %d", result)
 	}
 }
+
+func TestSub(t *testing.T) {
+	expect := 1
+	result := Sub(2, 1)
+	if result != expect {
+		t.Errorf("expect %v. got %v", expect, result)
+	}
+}
