@@ -1,4 +1,4 @@
-# Go Examples
+# Go Playground
 
 A set of example [Go](http://golang.org/) programs
 
