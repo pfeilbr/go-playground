@@ -1,6 +1,6 @@
 # Go Playground
 
-A set of example [Go](http://golang.org/) programs
+A set of example [Go](http://golang.org/) programs for learning
 
 Each subdirectory contains an example
 
