@@ -37,6 +37,14 @@ func TestLookPath(t *testing.T) {
 
 func TestNetcat(t *testing.T) {
 	expect := "hello"
+
+	executable := "nc"
+	_, err := exec.LookPath(executable)
+
+	if err != nil {
+		t.Fatalf("%s not found in path", executable)
+	}
+
 	port := "8000"
 	cmd := exec.Command("nc", "-lk", "127.0.0.1", port)
 
