@@ -2,8 +2,10 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"io/ioutil"
 	"net"
+	"os"
 	"os/exec"
 	"strings"
 	"testing"
@@ -37,7 +39,6 @@ func TestLookPath(t *testing.T) {
 
 func TestNetcat(t *testing.T) {
 	expect := "hello"
-
 	executable := "nc"
 	_, err := exec.LookPath(executable)
 
@@ -50,7 +51,7 @@ func TestNetcat(t *testing.T) {
 
 	stdout, _ := cmd.StdoutPipe()
 
-	if err := cmd.Start(); err != nil {
+	if err = cmd.Start(); err != nil {
 		t.Fatal(err)
 	}
 	defer cmd.Process.Kill()
@@ -98,4 +99,53 @@ func TestNetcat(t *testing.T) {
 		t.Errorf("timeout hit")
 	}
 
+}
+
+func TestOpensnoop(t *testing.T) {
+	cmdName := "opensnoop"
+	//cmdArgs := []string{}
+
+	cmd := exec.Command("/bin/sh", "-c", fmt.Sprintf("sudo %s", cmdName))
+
+	cmdReader, err := cmd.StdoutPipe()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error creating StdoutPipe for Cmd: %v\nerror: %v\n", cmdName, err)
+		os.Exit(1)
+	}
+
+	lines := make(chan string)
+
+	// read stdout
+	scanner := bufio.NewScanner(cmdReader)
+	go func(lines chan string) {
+		for scanner.Scan() {
+			line := scanner.Text()
+			lines <- line
+		}
+	}(lines)
+
+	// process lines coming in from stdout
+	go func(lines chan string) {
+		for {
+			select {
+			case line := <-lines:
+				fmt.Printf("%s\n", line)
+			default:
+			}
+		}
+	}(lines)
+
+	// start process
+	err = cmd.Start()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "Error starting Cmd", err)
+		os.Exit(1)
+	}
+
+	// wait for process to exit
+	err = cmd.Wait()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "Error waiting for Cmd", err)
+		os.Exit(1)
+	}
 }

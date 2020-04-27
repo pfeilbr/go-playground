@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f540d4e6-598f-491d-a57a-f4ddfd9d9d6c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code-manipulation/basic_test.go" afterPath="$PROJECT_DIR$/code-manipulation/basic_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/basic_test.go" afterPath="$PROJECT_DIR$/exec/basic_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello/hello.go" afterPath="$PROJECT_DIR$/hello/hello.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/example_test.go" afterPath="$PROJECT_DIR$/testing/example_test.go" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testing/example_test.go" />
+        <option value="$PROJECT_DIR$/hello/hello.go" />
+        <option value="$PROJECT_DIR$/mustache-example/mustache-example.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client_ip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider$1" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.9.2/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.9.2/bin/node" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestAnonFunc in reflection_test.go">
+    <configuration default="false" name="example_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/pfeilbr/go-playground/testing" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build github.com/pfeilbr/go-playground/mustache-example and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <package value="github.com/pfeilbr/go-playground/mustache-example" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build github.com/pfeilbr/go-playground/client_ip and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <package value="github.com/pfeilbr/go-playground/client_ip" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSliceAnonStruct in reflection_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/pfeilbr/go-playground/reflection" />
+      <pattern value="^TestSliceAnonStruct$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestAnonFunc in reflection_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/pfeilbr/go-playground/reflection" />
+      <pattern value="^TestAnonFunc$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test example" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-playground" />
+      <working_directory value="$PROJECT_DIR$/testing" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/testing" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.test example" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.example_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.Build github.com/pfeilbr/go-playground/mustache-example and run" />
+      <item index="3" class="java.lang.String" itemvalue="Go Application.Build github.com/pfeilbr/go-playground/client_ip and run" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSliceAnonStruct in reflection_test.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Test.TestAnonFunc in reflection_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestAnonFunc in reflection_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestSliceAnonStruct in reflection_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.Build github.com/pfeilbr/go-playground/client_ip and run" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.Build github.com/pfeilbr/go-playground/mustache-example and run" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.example_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestAdd_in_example_test_go - 2016.12.28 at 20h 54m 13s.xml">
+      <configuration name="TestAdd in example_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdd_in_example_test_go - 2016.12.28 at 20h 54m 24s.xml">
+      <configuration name="TestAdd in example_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdd_in_example_test_go - 2016.12.28 at 20h 54m 35s.xml">
+      <configuration name="TestAdd in example_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAnonFunc_in_reflection_test_go - 2017.01.02 at 10h 38m 34s.xml">
+      <configuration name="TestAnonFunc in reflection_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSliceAnonStruct_in_reflection_test_go - 2017.01.02 at 10h 38m 10s.xml">
+      <configuration name="TestSliceAnonStruct in reflection_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="example_test_go - 2016.12.28 at 20h 56m 17s.xml">
+      <configuration name="example_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="example_test_go - 2016.12.28 at 20h 57m 58s.xml">
+      <configuration name="example_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="example_test_go - 2016.12.28 at 21h 00m 30s.xml">
+      <configuration name="example_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="test_example - 2016.12.28 at 20h 53m 04s.xml">
+      <configuration name="test example" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="test_example - 2016.12.28 at 20h 54m 52s.xml">
+      <configuration name="test example" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24373259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.5027855" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.4972145" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/testing/example_test.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hello/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/reflection_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/reflect/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14790">
+          <caret line="990" column="15" lean-forward="false" selection-start-line="990" selection-start-column="15" selection-end-line="990" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/internal/race/norace.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/sync/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="2085" column="0" lean-forward="false" selection-start-line="2085" selection-start-column="0" selection-end-line="2085" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="3605" column="0" lean-forward="false" selection-start-line="3605" selection-start-column="0" selection-end-line="3605" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/runtime/sys_darwin_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="417" column="0" lean-forward="false" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/example_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_ip/client_ip.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache-example/mustache-example.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/reflect/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14790">
+          <caret line="990" column="15" lean-forward="false" selection-start-line="990" selection-start-column="15" selection-end-line="990" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/reflection_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

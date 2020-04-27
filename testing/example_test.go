@@ -28,3 +28,9 @@ func TestSub(t *testing.T) {
 		t.Errorf("expect %v. got %v", expect, result)
 	}
 }
+
+func TestFoo(t *testing.T) {
+	if false {
+		t.Error("Encountered a failure")
+	}
+}
